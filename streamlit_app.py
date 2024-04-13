@@ -2,5 +2,5 @@
 import streamlit as st
 import subprocess
 import sys
-
-subprocess.run([f"{sys.executable}", "run1.py"])
+streamlit run run1.py
+#subprocess.run([f"{sys.executable}", "run1.py"])
